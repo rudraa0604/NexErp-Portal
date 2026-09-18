@@ -1,0 +1,14 @@
+{
+  "name": "project-1-erp-portal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "HR & Payroll ERP Web Portal",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "node -e \"const { spawn } = require('child_process'); const s = spawn('npm', ['run', 'dev'], { cwd: 'server', stdio: 'inherit', shell: true }); const c = spawn('npm', ['run', 'dev'], { cwd: 'client', stdio: 'inherit', shell: true }); process.on('SIGINT', () => { s.kill(); c.kill(); process.exit(); });\"",
+    "start": "npm run dev",
+    "seed": "npm run seed --prefix server",
+    "build": "npm run build --prefix client"
+  }
+}
