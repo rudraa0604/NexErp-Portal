@@ -9,6 +9,6 @@
     "dev": "node -e \"const { spawn } = require('child_process'); const s = spawn('npm', ['run', 'dev'], { cwd: 'server', stdio: 'inherit', shell: true }); const c = spawn('npm', ['run', 'dev'], { cwd: 'client', stdio: 'inherit', shell: true }); process.on('SIGINT', () => { s.kill(); c.kill(); process.exit(); });\"",
     "start": "node server/src/server.js",
     "seed": "npm run seed --prefix server",
-    "build": "npm --prefix server install && npm --prefix client install && npm --prefix client run build"
+    "build": "npm --prefix server install --include=dev && npm --prefix client install --include=dev && npm --prefix client run build"
   }
 }
