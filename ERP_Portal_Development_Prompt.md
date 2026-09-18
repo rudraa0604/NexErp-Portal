@@ -1,9 +1,3 @@
-git# ERP Portal Development — Full Prompt (Step by Step)
-
-Ye ek complete, ready-to-use prompt/specification hai jise aap kisi developer ko de sakte hain, ya kisi AI coding tool (Claude Code, Cursor, v0, etc.) ko copy-paste karke pura ERP system banwa sakte hain.
-
----
-
 ## 🎯 PROJECT OVERVIEW (Copy this as your main prompt)
 
 ```
