@@ -1,4 +1,4 @@
-## 🎯 PROJECT OVERVIEW (Copy this as your main prompt)
+## 🎯 PROJECT OVERVIEW 
 
 ```
 Build a full-stack HR & Payroll ERP Web Portal with TWO login types:
@@ -21,7 +21,7 @@ CRUD APIs, proper validation, and a functional UI — not just static design.
 
 ## STEP 1 — Authentication & Roles
 
-**Prompt to give:**
+
 ```
 Create a login system with:
 - Single login page, but backend detects role (admin/employee) from database
@@ -41,7 +41,7 @@ Database table: users
 
 ## STEP 2 — HOME Module (Dashboard)
 
-**Prompt to give:**
+
 ```
 Build a Home Dashboard with three widgets:
 
@@ -73,7 +73,7 @@ Database tables:
 
 ## STEP 3 — EMPLOYEES Module
 
-**Prompt to give:**
+
 ```
 Build an Employees module (Admin-only access, employees can view only their own profile):
 
@@ -115,7 +115,7 @@ Database tables:
 
 ## STEP 4 — PAYROLL Module
 
-**Prompt to give:**
+
 ```
 Build a Payroll module (Admin-only):
 
@@ -200,8 +200,4 @@ EMPLOYEE can access:
 
 ---
 
-## 💡 Tips
-- Har module ko pehle **isolated** test karo (Postman se API check), phir frontend se connect karo.
-- Attendance aur Payroll ka logic sabse critical hai — pehle isko sahi se design karo, formulas ko settings table mein rakho (hardcode mat karo), taaki future mein PF%/ESI% change ho to code change na karna pade.
-- Salary slip PDF ke liye `pdfkit` ya `puppeteer` (Node) use kar sakte ho.
-- Agar aap khud code nahi likhna chahte, to ye pura document copy karke **Claude Code**, **Cursor**, ya kisi bhi AI dev tool ko de sakte ho — ye step-by-step isi order mein build karega.
+
